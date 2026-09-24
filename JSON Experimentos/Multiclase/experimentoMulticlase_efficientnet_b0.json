@@ -1,0 +1,237 @@
+{
+  "experimento": "multiclase",
+  "modelo": "efficientnet_b0",
+  "clases": [
+    "Flux",
+    "SDXL",
+    "StyleGAN2",
+    "StyleGAN3",
+    "real"
+  ],
+  "fecha": "2026-07-28T20:45:26",
+  "config": {
+    "batch_size": 16,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.0001,
+    "epocas_max": 20,
+    "paciencia": 5,
+    "preentrenado": true,
+    "amp": true
+  },
+  "resultados_por_semilla": [
+    {
+      "semilla": 42,
+      "clases": [
+        "Flux",
+        "SDXL",
+        "StyleGAN2",
+        "StyleGAN3",
+        "real"
+      ],
+      "mejor_acc_val": 0.9906666666666667,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.6043663383454693,
+          "perdida_val": 0.17534502560751777,
+          "acc_train": 0.7766530612244898,
+          "acc_val": 0.9348571428571428
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.2389223284186149,
+          "perdida_val": 0.10233500507899693,
+          "acc_train": 0.9064897959183673,
+          "acc_val": 0.9622857142857143
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.14665434823230822,
+          "perdida_val": 0.0779372037705921,
+          "acc_train": 0.9439591836734694,
+          "acc_val": 0.9702857142857143
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.11491722665514265,
+          "perdida_val": 0.0869713458560762,
+          "acc_train": 0.9563265306122449,
+          "acc_val": 0.9687619047619047
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.08618830571369249,
+          "perdida_val": 0.05672514477230254,
+          "acc_train": 0.9673877551020408,
+          "acc_val": 0.9807619047619047
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.07073619746675297,
+          "perdida_val": 0.05830818060466222,
+          "acc_train": 0.9739591836734693,
+          "acc_val": 0.9801904761904762
+        },
+        {
+          "epoca": 7,
+          "perdida_train": 0.06433724629149146,
+          "perdida_val": 0.0514137776465643,
+          "acc_train": 0.9767755102040816,
+          "acc_val": 0.9807619047619047
+        },
+        {
+          "epoca": 8,
+          "perdida_train": 0.051487494420032115,
+          "perdida_val": 0.05388774753752209,
+          "acc_train": 0.981265306122449,
+          "acc_val": 0.9826666666666667
+        },
+        {
+          "epoca": 9,
+          "perdida_train": 0.0472775483374693,
+          "perdida_val": 0.04537698175793602,
+          "acc_train": 0.9830204081632653,
+          "acc_val": 0.9836190476190476
+        },
+        {
+          "epoca": 10,
+          "perdida_train": 0.04317571525184476,
+          "perdida_val": 0.029684294155665807,
+          "acc_train": 0.9844897959183674,
+          "acc_val": 0.9906666666666667
+        },
+        {
+          "epoca": 11,
+          "perdida_train": 0.03832782713247805,
+          "perdida_val": 0.06831843771253314,
+          "acc_train": 0.986204081632653,
+          "acc_val": 0.9780952380952381
+        },
+        {
+          "epoca": 12,
+          "perdida_train": 0.03516265304234563,
+          "perdida_val": 0.03339489761988322,
+          "acc_train": 0.986938775510204,
+          "acc_val": 0.9895238095238095
+        },
+        {
+          "epoca": 13,
+          "perdida_train": 0.030341505955676643,
+          "perdida_val": 0.0447628968556722,
+          "acc_train": 0.9896734693877551,
+          "acc_val": 0.985904761904762
+        },
+        {
+          "epoca": 14,
+          "perdida_train": 0.029059085184214066,
+          "perdida_val": 0.03617146214984712,
+          "acc_train": 0.9894693877551021,
+          "acc_val": 0.9868571428571429
+        },
+        {
+          "epoca": 15,
+          "perdida_train": 0.02566469593923919,
+          "perdida_val": 0.04223790936242967,
+          "acc_train": 0.9911836734693877,
+          "acc_val": 0.9851428571428571
+        }
+      ],
+      "metricas_test": {
+        "accuracy": 0.9904761904761905,
+        "precision_macro": 0.9904853161604408,
+        "recall_macro": 0.9904761904761905,
+        "f1_macro": 0.9904754843341976,
+        "reporte_por_clase": {
+          "Flux": {
+            "precision": 0.9961904761904762,
+            "recall": 0.9961904761904762,
+            "f1-score": 0.9961904761904762,
+            "support": 1050.0
+          },
+          "SDXL": {
+            "precision": 0.9952471482889734,
+            "recall": 0.9971428571428571,
+            "f1-score": 0.9961941008563273,
+            "support": 1050.0
+          },
+          "StyleGAN2": {
+            "precision": 0.9820415879017014,
+            "recall": 0.9895238095238095,
+            "f1-score": 0.9857685009487666,
+            "support": 1050.0
+          },
+          "StyleGAN3": {
+            "precision": 0.9856459330143541,
+            "recall": 0.9809523809523809,
+            "f1-score": 0.9832935560859188,
+            "support": 1050.0
+          },
+          "real": {
+            "precision": 0.9933014354066986,
+            "recall": 0.9885714285714285,
+            "f1-score": 0.9909307875894988,
+            "support": 1050.0
+          },
+          "accuracy": 0.9904761904761905,
+          "macro avg": {
+            "precision": 0.9904853161604408,
+            "recall": 0.9904761904761905,
+            "f1-score": 0.9904754843341976,
+            "support": 5250.0
+          },
+          "weighted avg": {
+            "precision": 0.9904853161604408,
+            "recall": 0.9904761904761905,
+            "f1-score": 0.9904754843341976,
+            "support": 5250.0
+          }
+        },
+        "matriz_confusion": [
+          [
+            1046,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            1047,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1039,
+            10,
+            1
+          ],
+          [
+            0,
+            0,
+            14,
+            1030,
+            6
+          ],
+          [
+            1,
+            1,
+            5,
+            5,
+            1038
+          ]
+        ],
+        "clases": [
+          "Flux",
+          "SDXL",
+          "StyleGAN2",
+          "StyleGAN3",
+          "real"
+        ]
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/multiclase_efficientnet_b0_semilla42.pth"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "semilla": 123,
+  "evaluacion_inicial": {
+    "StyleGAN2_CelebA": {
+      "accuracy": 0.8014285714285714,
+      "precision_fake": 0.7160409556313994,
+      "recall_fake": 0.9990476190476191,
+      "f1_fake": 0.8341948310139164,
+      "auc": 0.9909736961451248,
+      "matriz_confusion": [
+        [
+          1049,
+          1
+        ],
+        [
+          416,
+          634
+        ]
+      ]
+    },
+    "StyleGAN3_CelebA": {
+      "accuracy": 0.7776190476190477,
+      "precision_fake": 0.7060070671378091,
+      "recall_fake": 0.9514285714285714,
+      "f1_fake": 0.8105476673427991,
+      "auc": 0.9119183673469388,
+      "matriz_confusion": [
+        [
+          999,
+          51
+        ],
+        [
+          416,
+          634
+        ]
+      ]
+    },
+    "SDXL_CelebA": {
+      "accuracy": 0.7785714285714286,
+      "precision_fake": 0.7064220183486238,
+      "recall_fake": 0.9533333333333334,
+      "f1_fake": 0.8115119578435347,
+      "auc": 0.924742403628118,
+      "matriz_confusion": [
+        [
+          1001,
+          49
+        ],
+        [
+          416,
+          634
+        ]
+      ]
+    },
+    "Flux_CelebA": {
+      "accuracy": 0.78,
+      "precision_fake": 0.7070422535211267,
+      "recall_fake": 0.9561904761904761,
+      "f1_fake": 0.8129554655870446,
+      "auc": 0.9232104308390023,
+      "matriz_confusion": [
+        [
+          1004,
+          46
+        ],
+        [
+          416,
+          634
+        ]
+      ]
+    }
+  },
+  "fases": [
+    {
+      "fase": "FT-1",
+      "generadores_entrenamiento": [
+        "StyleGAN2_CelebA",
+        "StyleGAN3_CelebA"
+      ],
+      "mejor_acc_val": 0.9980952380952381,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.16905323960343185,
+          "perdida_val": 0.017719272488639467,
+          "acc_train": 0.928469387755102,
+          "acc_val": 0.9957142857142857
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.14586596735886165,
+          "perdida_val": 0.019160913683119275,
+          "acc_train": 0.9412244897959183,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.13448644033500126,
+          "perdida_val": 0.013580246823174612,
+          "acc_train": 0.9490816326530612,
+          "acc_val": 0.9971428571428571
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.12390401081163056,
+          "perdida_val": 0.017533835910615466,
+          "acc_train": 0.9537755102040816,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.1094574623448508,
+          "perdida_val": 0.015410096134458269,
+          "acc_train": 0.9597959183673469,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.14715700297939535,
+          "perdida_val": 0.015261100700923375,
+          "acc_train": 0.9426530612244898,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 7,
+          "perdida_train": 0.13311902645899326,
+          "perdida_val": 0.017256453037261962,
+          "acc_train": 0.9476530612244898,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 8,
+          "perdida_train": 0.13574438297018712,
+          "perdida_val": 0.00962191036769322,
+          "acc_train": 0.9468367346938775,
+          "acc_val": 0.9980952380952381
+        },
+        {
+          "epoca": 9,
+          "perdida_train": 0.1279353262453663,
+          "perdida_val": 0.013598120212554932,
+          "acc_train": 0.9485714285714286,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 10,
+          "perdida_train": 0.12718694381567897,
+          "perdida_val": 0.015965476433436075,
+          "acc_train": 0.9516326530612245,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 11,
+          "perdida_train": 0.12336781901972635,
+          "perdida_val": 0.01133909679594494,
+          "acc_train": 0.9493877551020408,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 12,
+          "perdida_train": 0.12040931415801145,
+          "perdida_val": 0.012946676583517166,
+          "acc_train": 0.9505102040816327,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 13,
+          "perdida_train": 0.11703462008310823,
+          "perdida_val": 0.01729961077372233,
+          "acc_train": 0.9554081632653061,
+          "acc_val": 0.9957142857142857
+        }
+      ],
+      "evaluacion": {
+        "StyleGAN2_CelebA": {
+          "accuracy": 0.699047619047619,
+          "precision_fake": 0.6242568370986921,
+          "recall_fake": 1.0,
+          "f1_fake": 0.7686676427525623,
+          "auc": 0.9931510204081632,
+          "matriz_confusion": [
+            [
+              1050,
+              0
+            ],
+            [
+              632,
+              418
+            ]
+          ]
+        },
+        "StyleGAN3_CelebA": {
+          "accuracy": 0.6966666666666667,
+          "precision_fake": 0.6231365533691116,
+          "recall_fake": 0.9952380952380953,
+          "f1_fake": 0.7664099743307664,
+          "auc": 0.9509519274376417,
+          "matriz_confusion": [
+            [
+              1045,
+              5
+            ],
+            [
+              632,
+              418
+            ]
+          ]
+        },
+        "SDXL_CelebA": {
+          "accuracy": 0.6852380952380952,
+          "precision_fake": 0.617664851784634,
+          "recall_fake": 0.9723809523809523,
+          "f1_fake": 0.7554568997410285,
+          "auc": 0.9205945578231293,
+          "matriz_confusion": [
+            [
+              1021,
+              29
+            ],
+            [
+              632,
+              418
+            ]
+          ]
+        },
+        "Flux_CelebA": {
+          "accuracy": 0.689047619047619,
+          "precision_fake": 0.6195063214930765,
+          "recall_fake": 0.98,
+          "f1_fake": 0.7591294725193656,
+          "auc": 0.9319278911564626,
+          "matriz_confusion": [
+            [
+              1029,
+              21
+            ],
+            [
+              632,
+              418
+            ]
+          ]
+        }
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/resnet50_E_FT-1_semilla123.pth"
+    },
+    {
+      "fase": "FT-2",
+      "generadores_entrenamiento": [
+        "StyleGAN2_CelebA",
+        "StyleGAN3_CelebA",
+        "SDXL_CelebA"
+      ],
+      "mejor_acc_val": 0.9980952380952381,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.19033916497281625,
+          "perdida_val": 0.01214136657260713,
+          "acc_train": 0.9221349117256863,
+          "acc_val": 0.9980952380952381
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.14946120738958824,
+          "perdida_val": 0.012834374961398897,
+          "acc_train": 0.9395856720073477,
+          "acc_val": 0.9980952380952381
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.13048904838428435,
+          "perdida_val": 0.016513620217641193,
+          "acc_train": 0.9495866925196449,
+          "acc_val": 0.9961904761904762
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.13635797737350097,
+          "perdida_val": 0.021862491766611734,
+          "acc_train": 0.9460148994795388,
+          "acc_val": 0.9942857142857143
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.13350290063122716,
+          "perdida_val": 0.013952439682824272,
+          "acc_train": 0.9490764363710583,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.12500875171398262,
+          "perdida_val": 0.010007714714322772,
+          "acc_train": 0.9513215634248393,
+          "acc_val": 0.9980952380952381
+        }
+      ],
+      "evaluacion": {
+        "StyleGAN2_CelebA": {
+          "accuracy": 0.731904761904762,
+          "precision_fake": 0.6509609423434594,
+          "recall_fake": 1.0,
+          "f1_fake": 0.7885843034171987,
+          "auc": 0.992839909297052,
+          "matriz_confusion": [
+            [
+              1050,
+              0
+            ],
+            [
+              563,
+              487
+            ]
+          ]
+        },
+        "StyleGAN3_CelebA": {
+          "accuracy": 0.7276190476190476,
+          "precision_fake": 0.649002493765586,
+          "recall_fake": 0.9914285714285714,
+          "f1_fake": 0.7844762622456669,
+          "auc": 0.94040589569161,
+          "matriz_confusion": [
+            [
+              1041,
+              9
+            ],
+            [
+              563,
+              487
+            ]
+          ]
+        },
+        "SDXL_CelebA": {
+          "accuracy": 0.7295238095238096,
+          "precision_fake": 0.6498756218905473,
+          "recall_fake": 0.9952380952380953,
+          "f1_fake": 0.7863054928517682,
+          "auc": 0.9774929705215418,
+          "matriz_confusion": [
+            [
+              1045,
+              5
+            ],
+            [
+              563,
+              487
+            ]
+          ]
+        },
+        "Flux_CelebA": {
+          "accuracy": 0.7309523809523809,
+          "precision_fake": 0.6505276225946617,
+          "recall_fake": 0.9980952380952381,
+          "f1_fake": 0.787673806839534,
+          "auc": 0.989585941043084,
+          "matriz_confusion": [
+            [
+              1048,
+              2
+            ],
+            [
+              563,
+              487
+            ]
+          ]
+        }
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/resnet50_E_FT-2_semilla123.pth"
+    },
+    {
+      "fase": "FT-3",
+      "generadores_entrenamiento": [
+        "StyleGAN2_CelebA",
+        "StyleGAN3_CelebA",
+        "SDXL_CelebA",
+        "Flux_CelebA"
+      ],
+      "mejor_acc_val": 0.9985700667302193,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.13672372505372885,
+          "perdida_val": 0.011887093176719004,
+          "acc_train": 0.9448979591836735,
+          "acc_val": 0.9985700667302193
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.116733434321929,
+          "perdida_val": 0.016128926645357117,
+          "acc_train": 0.9568367346938775,
+          "acc_val": 0.998093422306959
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.10406581080689722,
+          "perdida_val": 0.011705059682447871,
+          "acc_train": 0.9625510204081633,
+          "acc_val": 0.998093422306959
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.0977130974312218,
+          "perdida_val": 0.014243309388738001,
+          "acc_train": 0.965,
+          "acc_val": 0.9971401334604385
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.08410894463256914,
+          "perdida_val": 0.013616001753720701,
+          "acc_train": 0.9703061224489796,
+          "acc_val": 0.9985700667302193
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.10673986274368909,
+          "perdida_val": 0.014425399305709097,
+          "acc_train": 0.9592857142857143,
+          "acc_val": 0.998093422306959
+        }
+      ],
+      "evaluacion": {
+        "StyleGAN2_CelebA": {
+          "accuracy": 0.7528571428571429,
+          "precision_fake": 0.6692160611854685,
+          "recall_fake": 1.0,
+          "f1_fake": 0.8018327605956472,
+          "auc": 0.9920702947845806,
+          "matriz_confusion": [
+            [
+              1050,
+              0
+            ],
+            [
+              519,
+              531
+            ]
+          ]
+        },
+        "StyleGAN3_CelebA": {
+          "accuracy": 0.7485714285714286,
+          "precision_fake": 0.6673076923076923,
+          "recall_fake": 0.9914285714285714,
+          "f1_fake": 0.7977011494252874,
+          "auc": 0.9397727891156462,
+          "matriz_confusion": [
+            [
+              1041,
+              9
+            ],
+            [
+              519,
+              531
+            ]
+          ]
+        },
+        "SDXL_CelebA": {
+          "accuracy": 0.7504761904761905,
+          "precision_fake": 0.6681585677749361,
+          "recall_fake": 0.9952380952380953,
+          "f1_fake": 0.7995409334353482,
+          "auc": 0.9807015873015874,
+          "matriz_confusion": [
+            [
+              1045,
+              5
+            ],
+            [
+              519,
+              531
+            ]
+          ]
+        },
+        "Flux_CelebA": {
+          "accuracy": 0.7523809523809524,
+          "precision_fake": 0.6690051020408163,
+          "recall_fake": 0.9990476190476191,
+          "f1_fake": 0.8013750954927426,
+          "auc": 0.9926716553287982,
+          "matriz_confusion": [
+            [
+              1049,
+              1
+            ],
+            [
+              519,
+              531
+            ]
+          ]
+        }
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/resnet50_E_FT-3_semilla123.pth"
+    }
+  ]
+}

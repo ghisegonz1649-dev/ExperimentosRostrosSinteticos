@@ -1,0 +1,102 @@
+{
+  "generador": "StyleGAN2_CelebA",
+  "semilla": 42,
+  "mejor_acc_val": 0.9990476190476191,
+  "historial": [
+    {
+      "epoca": 1,
+      "perdida_train": 0.6441663363515114,
+      "perdida_val": 0.05917531507355826,
+      "acc_train": 0.808469387755102,
+      "acc_val": 0.9847619047619047
+    },
+    {
+      "epoca": 2,
+      "perdida_train": 0.2862446574045687,
+      "perdida_val": 0.03839474292028518,
+      "acc_train": 0.8909183673469387,
+      "acc_val": 0.9904761904761905
+    },
+    {
+      "epoca": 3,
+      "perdida_train": 0.1881580450218551,
+      "perdida_val": 0.02219710321653457,
+      "acc_train": 0.9245918367346939,
+      "acc_val": 0.9928571428571429
+    },
+    {
+      "epoca": 4,
+      "perdida_train": 0.15870815302644456,
+      "perdida_val": 0.022194915953136624,
+      "acc_train": 0.9413265306122449,
+      "acc_val": 0.9928571428571429
+    },
+    {
+      "epoca": 5,
+      "perdida_train": 0.1193342692268138,
+      "perdida_val": 0.018066602945327758,
+      "acc_train": 0.9529591836734694,
+      "acc_val": 0.9952380952380953
+    },
+    {
+      "epoca": 6,
+      "perdida_train": 0.10574878997948704,
+      "perdida_val": 0.007107945794150943,
+      "acc_train": 0.9596938775510204,
+      "acc_val": 0.9990476190476191
+    },
+    {
+      "epoca": 7,
+      "perdida_train": 0.08641810333242221,
+      "perdida_val": 0.0662949744292668,
+      "acc_train": 0.9685714285714285,
+      "acc_val": 0.9861904761904762
+    },
+    {
+      "epoca": 8,
+      "perdida_train": 0.08336062129662962,
+      "perdida_val": 0.009991043011347452,
+      "acc_train": 0.9701020408163266,
+      "acc_val": 0.9971428571428571
+    },
+    {
+      "epoca": 9,
+      "perdida_train": 0.079745291909393,
+      "perdida_val": 0.01602352675937471,
+      "acc_train": 0.9733673469387755,
+      "acc_val": 0.9947619047619047
+    },
+    {
+      "epoca": 10,
+      "perdida_train": 0.06329152023305698,
+      "perdida_val": 0.011844745874404906,
+      "acc_train": 0.9761224489795919,
+      "acc_val": 0.9952380952380953
+    },
+    {
+      "epoca": 11,
+      "perdida_train": 0.05233787636367642,
+      "perdida_val": 0.013344036000115531,
+      "acc_train": 0.9808163265306122,
+      "acc_val": 0.9976190476190476
+    }
+  ],
+  "metricas_test": {
+    "accuracy": 0.8271428571428572,
+    "precision_fake": 0.7434443656980865,
+    "recall_fake": 0.9990476190476191,
+    "f1_fake": 0.8524989841527835,
+    "auc": 0.9943043083900226,
+    "matriz_confusion": [
+      [
+        1049,
+        1
+      ],
+      [
+        362,
+        688
+      ]
+    ]
+  },
+  "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/efficientnet_b0_StyleGAN2_CelebA_semilla42.pth"
+}

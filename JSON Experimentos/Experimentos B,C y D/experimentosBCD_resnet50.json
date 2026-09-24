@@ -1,0 +1,235 @@
+{
+  "experimentos": "B_C_D_cross_generador",
+  "arquitecturas": [
+    "resnet50"
+  ],
+  "generador_entrenamiento": "StyleGAN2_CelebA",
+  "fecha": "2026-07-21T21:52:38",
+  "evaluaciones": [
+    {
+      "experimento": "B",
+      "arquitectura": "resnet50",
+      "semilla": 42,
+      "generador_evaluacion": "StyleGAN3_CelebA",
+      "metricas": {
+        "accuracy": 0.7547619047619047,
+        "precision_fake": 0.6782145236508994,
+        "recall_fake": 0.9695238095238096,
+        "f1_fake": 0.7981183849470795,
+        "auc": 0.9225777777777777,
+        "matriz_confusion": [
+          [
+            1018,
+            32
+          ],
+          [
+            483,
+            567
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.7690476190476191,
+      "degradacion_acc": 0.014285714285714346
+    },
+    {
+      "experimento": "C",
+      "arquitectura": "resnet50",
+      "semilla": 42,
+      "generador_evaluacion": "SDXL_CelebA",
+      "metricas": {
+        "accuracy": 0.7547619047619047,
+        "precision_fake": 0.6782145236508994,
+        "recall_fake": 0.9695238095238096,
+        "f1_fake": 0.7981183849470795,
+        "auc": 0.9072535147392291,
+        "matriz_confusion": [
+          [
+            1018,
+            32
+          ],
+          [
+            483,
+            567
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.7690476190476191,
+      "degradacion_acc": 0.014285714285714346
+    },
+    {
+      "experimento": "D",
+      "arquitectura": "resnet50",
+      "semilla": 42,
+      "generador_evaluacion": "Flux_CelebA",
+      "metricas": {
+        "accuracy": 0.7542857142857143,
+        "precision_fake": 0.678,
+        "recall_fake": 0.9685714285714285,
+        "f1_fake": 0.7976470588235294,
+        "auc": 0.9198961451247165,
+        "matriz_confusion": [
+          [
+            1017,
+            33
+          ],
+          [
+            483,
+            567
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.7690476190476191,
+      "degradacion_acc": 0.014761904761904754
+    },
+    {
+      "experimento": "B",
+      "arquitectura": "resnet50",
+      "semilla": 123,
+      "generador_evaluacion": "StyleGAN3_CelebA",
+      "metricas": {
+        "accuracy": 0.7776190476190477,
+        "precision_fake": 0.7060070671378091,
+        "recall_fake": 0.9514285714285714,
+        "f1_fake": 0.8105476673427991,
+        "auc": 0.9119183673469388,
+        "matriz_confusion": [
+          [
+            999,
+            51
+          ],
+          [
+            416,
+            634
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.8014285714285714,
+      "degradacion_acc": 0.023809523809523725
+    },
+    {
+      "experimento": "C",
+      "arquitectura": "resnet50",
+      "semilla": 123,
+      "generador_evaluacion": "SDXL_CelebA",
+      "metricas": {
+        "accuracy": 0.7785714285714286,
+        "precision_fake": 0.7064220183486238,
+        "recall_fake": 0.9533333333333334,
+        "f1_fake": 0.8115119578435347,
+        "auc": 0.924742403628118,
+        "matriz_confusion": [
+          [
+            1001,
+            49
+          ],
+          [
+            416,
+            634
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.8014285714285714,
+      "degradacion_acc": 0.022857142857142798
+    },
+    {
+      "experimento": "D",
+      "arquitectura": "resnet50",
+      "semilla": 123,
+      "generador_evaluacion": "Flux_CelebA",
+      "metricas": {
+        "accuracy": 0.78,
+        "precision_fake": 0.7070422535211267,
+        "recall_fake": 0.9561904761904761,
+        "f1_fake": 0.8129554655870446,
+        "auc": 0.9232104308390023,
+        "matriz_confusion": [
+          [
+            1004,
+            46
+          ],
+          [
+            416,
+            634
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.8014285714285714,
+      "degradacion_acc": 0.021428571428571352
+    },
+    {
+      "experimento": "B",
+      "arquitectura": "resnet50",
+      "semilla": 2024,
+      "generador_evaluacion": "StyleGAN3_CelebA",
+      "metricas": {
+        "accuracy": 0.8038095238095239,
+        "precision_fake": 0.7349042709867453,
+        "recall_fake": 0.9504761904761905,
+        "f1_fake": 0.8289036544850499,
+        "auc": 0.9235396825396827,
+        "matriz_confusion": [
+          [
+            998,
+            52
+          ],
+          [
+            360,
+            690
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.8276190476190476,
+      "degradacion_acc": 0.023809523809523725
+    },
+    {
+      "experimento": "C",
+      "arquitectura": "resnet50",
+      "semilla": 2024,
+      "generador_evaluacion": "SDXL_CelebA",
+      "metricas": {
+        "accuracy": 0.7904761904761904,
+        "precision_fake": 0.7293233082706767,
+        "recall_fake": 0.9238095238095239,
+        "f1_fake": 0.8151260504201681,
+        "auc": 0.9151664399092971,
+        "matriz_confusion": [
+          [
+            970,
+            80
+          ],
+          [
+            360,
+            690
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.8276190476190476,
+      "degradacion_acc": 0.037142857142857144
+    },
+    {
+      "experimento": "D",
+      "arquitectura": "resnet50",
+      "semilla": 2024,
+      "generador_evaluacion": "Flux_CelebA",
+      "metricas": {
+        "accuracy": 0.8080952380952381,
+        "precision_fake": 0.7366495976591075,
+        "recall_fake": 0.959047619047619,
+        "f1_fake": 0.8332643773272652,
+        "auc": 0.9439269841269842,
+        "matriz_confusion": [
+          [
+            1007,
+            43
+          ],
+          [
+            360,
+            690
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.8276190476190476,
+      "degradacion_acc": 0.0195238095238095
+    }
+  ]
+}

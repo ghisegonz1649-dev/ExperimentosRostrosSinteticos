@@ -1,0 +1,421 @@
+{
+  "experimento": "A_baseline",
+  "modelo": "efficientnet_b0",
+  "generador_entrenamiento": "StyleGAN2_CelebA",
+  "fecha": "2026-07-19T02:53:47",
+  "config": {
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "epocas_max": 20,
+    "paciencia": 5,
+    "preentrenado": true,
+    "amp": true
+  },
+  "resultados_por_semilla": [
+    {
+      "generador": "StyleGAN2_CelebA",
+      "semilla": 42,
+      "mejor_acc_val": 0.9990476190476191,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.6441663363515114,
+          "perdida_val": 0.05917531507355826,
+          "acc_train": 0.808469387755102,
+          "acc_val": 0.9847619047619047
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.2862446574045687,
+          "perdida_val": 0.03839474292028518,
+          "acc_train": 0.8909183673469387,
+          "acc_val": 0.9904761904761905
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.1881580450218551,
+          "perdida_val": 0.02219710321653457,
+          "acc_train": 0.9245918367346939,
+          "acc_val": 0.9928571428571429
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.15870815302644456,
+          "perdida_val": 0.022194915953136624,
+          "acc_train": 0.9413265306122449,
+          "acc_val": 0.9928571428571429
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.1193342692268138,
+          "perdida_val": 0.018066602945327758,
+          "acc_train": 0.9529591836734694,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.10574878997948704,
+          "perdida_val": 0.007107945794150943,
+          "acc_train": 0.9596938775510204,
+          "acc_val": 0.9990476190476191
+        },
+        {
+          "epoca": 7,
+          "perdida_train": 0.08641810333242221,
+          "perdida_val": 0.0662949744292668,
+          "acc_train": 0.9685714285714285,
+          "acc_val": 0.9861904761904762
+        },
+        {
+          "epoca": 8,
+          "perdida_train": 0.08336062129662962,
+          "perdida_val": 0.009991043011347452,
+          "acc_train": 0.9701020408163266,
+          "acc_val": 0.9971428571428571
+        },
+        {
+          "epoca": 9,
+          "perdida_train": 0.079745291909393,
+          "perdida_val": 0.01602352675937471,
+          "acc_train": 0.9733673469387755,
+          "acc_val": 0.9947619047619047
+        },
+        {
+          "epoca": 10,
+          "perdida_train": 0.06329152023305698,
+          "perdida_val": 0.011844745874404906,
+          "acc_train": 0.9761224489795919,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 11,
+          "perdida_train": 0.05233787636367642,
+          "perdida_val": 0.013344036000115531,
+          "acc_train": 0.9808163265306122,
+          "acc_val": 0.9976190476190476
+        }
+      ],
+      "metricas_test": {
+        "accuracy": 0.8271428571428572,
+        "precision_fake": 0.7434443656980865,
+        "recall_fake": 0.9990476190476191,
+        "f1_fake": 0.8524989841527835,
+        "auc": 0.9943043083900226,
+        "matriz_confusion": [
+          [
+            1049,
+            1
+          ],
+          [
+            362,
+            688
+          ]
+        ]
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/efficientnet_b0_StyleGAN2_CelebA_semilla42.pth"
+    },
+    {
+      "generador": "StyleGAN2_CelebA",
+      "semilla": 123,
+      "mejor_acc_val": 0.9980952380952381,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.6786356217155651,
+          "perdida_val": 0.03448474424225943,
+          "acc_train": 0.801734693877551,
+          "acc_val": 0.9904761904761905
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.2867663831005291,
+          "perdida_val": 0.0359809566679455,
+          "acc_train": 0.893673469387755,
+          "acc_val": 0.9890476190476191
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.19502599877970558,
+          "perdida_val": 0.034195378224054974,
+          "acc_train": 0.9252040816326531,
+          "acc_val": 0.9928571428571429
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.16893008116556674,
+          "perdida_val": 0.016447352170944216,
+          "acc_train": 0.9369387755102041,
+          "acc_val": 0.9957142857142857
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.11639783708416686,
+          "perdida_val": 0.009285344566617693,
+          "acc_train": 0.9544897959183674,
+          "acc_val": 0.9971428571428571
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.10829459320525733,
+          "perdida_val": 0.05408919033550081,
+          "acc_train": 0.9589795918367346,
+          "acc_val": 0.9871428571428571
+        },
+        {
+          "epoca": 7,
+          "perdida_train": 0.09154256346274395,
+          "perdida_val": 0.030249160187585014,
+          "acc_train": 0.9658163265306122,
+          "acc_val": 0.9933333333333333
+        },
+        {
+          "epoca": 8,
+          "perdida_train": 0.06796862518300816,
+          "perdida_val": 0.01939542736325945,
+          "acc_train": 0.9758163265306122,
+          "acc_val": 0.9947619047619047
+        },
+        {
+          "epoca": 9,
+          "perdida_train": 0.06353417739576223,
+          "perdida_val": 0.01453620570046561,
+          "acc_train": 0.976530612244898,
+          "acc_val": 0.9957142857142857
+        },
+        {
+          "epoca": 10,
+          "perdida_train": 0.06212735601833889,
+          "perdida_val": 0.009880783103761219,
+          "acc_train": 0.9795918367346939,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 11,
+          "perdida_train": 0.05261239181975929,
+          "perdida_val": 0.01540146963936942,
+          "acc_train": 0.9810204081632653,
+          "acc_val": 0.9933333333333333
+        },
+        {
+          "epoca": 12,
+          "perdida_train": 0.05510467350482941,
+          "perdida_val": 0.01744926656995501,
+          "acc_train": 0.9793877551020408,
+          "acc_val": 0.9980952380952381
+        },
+        {
+          "epoca": 13,
+          "perdida_train": 0.044981327312333244,
+          "perdida_val": 0.013947296085811797,
+          "acc_train": 0.9846938775510204,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 14,
+          "perdida_train": 0.04815478541413132,
+          "perdida_val": 0.008862231004805791,
+          "acc_train": 0.981326530612245,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 15,
+          "perdida_train": 0.03657825788673089,
+          "perdida_val": 0.011042108989897229,
+          "acc_train": 0.9877551020408163,
+          "acc_val": 0.9957142857142857
+        },
+        {
+          "epoca": 16,
+          "perdida_train": 0.029714379237622632,
+          "perdida_val": 0.011631067991256714,
+          "acc_train": 0.9897959183673469,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 17,
+          "perdida_train": 0.033370539789297146,
+          "perdida_val": 0.02098035766964867,
+          "acc_train": 0.988265306122449,
+          "acc_val": 0.9947619047619047
+        }
+      ],
+      "metricas_test": {
+        "accuracy": 0.9085714285714286,
+        "precision_fake": 0.8476499189627229,
+        "recall_fake": 0.9961904761904762,
+        "f1_fake": 0.9159369527145359,
+        "auc": 0.9968353741496598,
+        "matriz_confusion": [
+          [
+            1046,
+            4
+          ],
+          [
+            188,
+            862
+          ]
+        ]
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/efficientnet_b0_StyleGAN2_CelebA_semilla123.pth"
+    },
+    {
+      "generador": "StyleGAN2_CelebA",
+      "semilla": 2024,
+      "mejor_acc_val": 0.9985714285714286,
+      "historial": [
+        {
+          "epoca": 1,
+          "perdida_train": 0.6818822068340924,
+          "perdida_val": 0.05610644391604832,
+          "acc_train": 0.8030612244897959,
+          "acc_val": 0.9871428571428571
+        },
+        {
+          "epoca": 2,
+          "perdida_train": 0.2901444742630939,
+          "perdida_val": 0.06494630410557702,
+          "acc_train": 0.8848979591836734,
+          "acc_val": 0.9833333333333333
+        },
+        {
+          "epoca": 3,
+          "perdida_train": 0.18154448355947223,
+          "perdida_val": 0.012880603869756063,
+          "acc_train": 0.926734693877551,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 4,
+          "perdida_train": 0.144851325981471,
+          "perdida_val": 0.02966693537575858,
+          "acc_train": 0.9431632653061225,
+          "acc_val": 0.9904761904761905
+        },
+        {
+          "epoca": 5,
+          "perdida_train": 0.12289947469623722,
+          "perdida_val": 0.02346643777120681,
+          "acc_train": 0.9543877551020408,
+          "acc_val": 0.9933333333333333
+        },
+        {
+          "epoca": 6,
+          "perdida_train": 0.10467299360401776,
+          "perdida_val": 0.01782196629615057,
+          "acc_train": 0.9583673469387755,
+          "acc_val": 0.9947619047619047
+        },
+        {
+          "epoca": 7,
+          "perdida_train": 0.08841058307764482,
+          "perdida_val": 0.012274209033875239,
+          "acc_train": 0.9675510204081633,
+          "acc_val": 0.9957142857142857
+        },
+        {
+          "epoca": 8,
+          "perdida_train": 0.07573513258476647,
+          "perdida_val": 0.011557948816390265,
+          "acc_train": 0.9714285714285714,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 9,
+          "perdida_train": 0.06398346138243773,
+          "perdida_val": 0.014877156075977144,
+          "acc_train": 0.9761224489795919,
+          "acc_val": 0.9976190476190476
+        },
+        {
+          "epoca": 10,
+          "perdida_train": 0.06876292206803147,
+          "perdida_val": 0.014775217033567883,
+          "acc_train": 0.9754081632653061,
+          "acc_val": 0.9952380952380953
+        },
+        {
+          "epoca": 11,
+          "perdida_train": 0.05353754075206056,
+          "perdida_val": 0.011952937557583764,
+          "acc_train": 0.9806122448979592,
+          "acc_val": 0.9971428571428571
+        },
+        {
+          "epoca": 12,
+          "perdida_train": 0.042429574156294066,
+          "perdida_val": 0.014067721650713965,
+          "acc_train": 0.9845918367346939,
+          "acc_val": 0.9957142857142857
+        },
+        {
+          "epoca": 13,
+          "perdida_train": 0.03949739964640871,
+          "perdida_val": 0.007883505140032087,
+          "acc_train": 0.9858163265306122,
+          "acc_val": 0.9966666666666667
+        },
+        {
+          "epoca": 14,
+          "perdida_train": 0.04735464183651671,
+          "perdida_val": 0.010236608641488211,
+          "acc_train": 0.9826530612244898,
+          "acc_val": 0.9985714285714286
+        },
+        {
+          "epoca": 15,
+          "perdida_train": 0.04275041248117174,
+          "perdida_val": 0.02908705262910752,
+          "acc_train": 0.9846938775510204,
+          "acc_val": 0.9923809523809524
+        },
+        {
+          "epoca": 16,
+          "perdida_train": 0.040563677646675886,
+          "perdida_val": 0.015474295445850918,
+          "acc_train": 0.9863265306122448,
+          "acc_val": 0.9947619047619047
+        },
+        {
+          "epoca": 17,
+          "perdida_train": 0.02757655789657515,
+          "perdida_val": 0.010190408400126865,
+          "acc_train": 0.9897959183673469,
+          "acc_val": 0.9971428571428571
+        },
+        {
+          "epoca": 18,
+          "perdida_train": 0.027476832623384437,
+          "perdida_val": 0.009526455118542625,
+          "acc_train": 0.99,
+          "acc_val": 0.9961904761904762
+        },
+        {
+          "epoca": 19,
+          "perdida_train": 0.02727018498644537,
+          "perdida_val": 0.012751899106161936,
+          "acc_train": 0.9910204081632653,
+          "acc_val": 0.9942857142857143
+        }
+      ],
+      "metricas_test": {
+        "accuracy": 0.9709523809523809,
+        "precision_fake": 0.9467028003613369,
+        "recall_fake": 0.9980952380952381,
+        "f1_fake": 0.9717199814557256,
+        "auc": 0.9991424036281179,
+        "matriz_confusion": [
+          [
+            1048,
+            2
+          ],
+          [
+            59,
+            991
+          ]
+        ]
+      },
+      "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/efficientnet_b0_StyleGAN2_CelebA_semilla2024.pth"
+    }
+  ]
+}

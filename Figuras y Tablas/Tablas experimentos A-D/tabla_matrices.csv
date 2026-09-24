@@ -1,0 +1,13 @@
+﻿Arquitectura,Experimento,Generador,VP_fake_fake,FN_fake_real,FP_real_fake,VN_real_real
+EfficientNet-B0,A,StyleGAN2,3143,7,609,2541
+EfficientNet-B0,B,StyleGAN3,2838,312,609,2541
+EfficientNet-B0,C,SDXL,1264,1886,609,2541
+EfficientNet-B0,D,Flux,1807,1343,609,2541
+ResNet-50,A,StyleGAN2,3145,5,1259,1891
+ResNet-50,B,StyleGAN3,3015,135,1259,1891
+ResNet-50,C,SDXL,2989,161,1259,1891
+ResNet-50,D,Flux,3028,122,1259,1891
+Xception,A,StyleGAN2,3137,13,449,2701
+Xception,B,StyleGAN3,2716,434,449,2701
+Xception,C,SDXL,2144,1006,449,2701
+Xception,D,Flux,2515,635,449,2701

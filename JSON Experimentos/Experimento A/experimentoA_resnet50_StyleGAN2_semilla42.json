@@ -1,0 +1,81 @@
+{
+  "generador": "StyleGAN2_CelebA",
+  "semilla": 42,
+  "mejor_acc_val": 0.9990476190476191,
+  "historial": [
+    {
+      "epoca": 1,
+      "perdida_train": 0.4228583354366069,
+      "perdida_val": 0.03735627475238982,
+      "acc_train": 0.8039795918367347,
+      "acc_val": 0.9942857142857143
+    },
+    {
+      "epoca": 2,
+      "perdida_train": 0.2493778988171597,
+      "perdida_val": 0.01980348377000718,
+      "acc_train": 0.893265306122449,
+      "acc_val": 0.9947619047619047
+    },
+    {
+      "epoca": 3,
+      "perdida_train": 0.1959006690005867,
+      "perdida_val": 0.008764295748301915,
+      "acc_train": 0.9181632653061225,
+      "acc_val": 0.9990476190476191
+    },
+    {
+      "epoca": 4,
+      "perdida_train": 0.16729317264897484,
+      "perdida_val": 0.011445296889259701,
+      "acc_train": 0.9326530612244898,
+      "acc_val": 0.9985714285714286
+    },
+    {
+      "epoca": 5,
+      "perdida_train": 0.1366573831986408,
+      "perdida_val": 0.014613737038203648,
+      "acc_train": 0.9456122448979591,
+      "acc_val": 0.9976190476190476
+    },
+    {
+      "epoca": 6,
+      "perdida_train": 0.11599457750515062,
+      "perdida_val": 0.0072444534869421096,
+      "acc_train": 0.9540816326530612,
+      "acc_val": 0.9976190476190476
+    },
+    {
+      "epoca": 7,
+      "perdida_train": 0.09534818492373642,
+      "perdida_val": 0.024624242101396833,
+      "acc_train": 0.9636734693877551,
+      "acc_val": 0.9923809523809524
+    },
+    {
+      "epoca": 8,
+      "perdida_train": 0.081662612374948,
+      "perdida_val": 0.005892596017746698,
+      "acc_train": 0.9694897959183674,
+      "acc_val": 0.9985714285714286
+    }
+  ],
+  "metricas_test": {
+    "accuracy": 0.7690476190476191,
+    "precision_fake": 0.6845199216198563,
+    "recall_fake": 0.9980952380952381,
+    "f1_fake": 0.8120883378535452,
+    "auc": 0.9876675736961451,
+    "matriz_confusion": [
+      [
+        1048,
+        2
+      ],
+      [
+        483,
+        567
+      ]
+    ]
+  },
+  "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/resnet50_StyleGAN2_CelebA_semilla42.pth"
+}

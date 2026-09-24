@@ -1,0 +1,116 @@
+{
+  "generador": "StyleGAN2_CelebA",
+  "semilla": 123,
+  "mejor_acc_val": 0.9990476190476191,
+  "historial": [
+    {
+      "epoca": 1,
+      "perdida_train": 0.2847310620546341,
+      "perdida_val": 0.01866986933208647,
+      "acc_train": 0.8744897959183674,
+      "acc_val": 0.9942857142857143
+    },
+    {
+      "epoca": 2,
+      "perdida_train": 0.1329477953424259,
+      "perdida_val": 0.018443665447689238,
+      "acc_train": 0.9506122448979591,
+      "acc_val": 0.9971428571428571
+    },
+    {
+      "epoca": 3,
+      "perdida_train": 0.08829993415851982,
+      "perdida_val": 0.019859757650466194,
+      "acc_train": 0.9681632653061224,
+      "acc_val": 0.9957142857142857
+    },
+    {
+      "epoca": 4,
+      "perdida_train": 0.06412882196659944,
+      "perdida_val": 0.010040802444730487,
+      "acc_train": 0.9783673469387755,
+      "acc_val": 0.9980952380952381
+    },
+    {
+      "epoca": 5,
+      "perdida_train": 0.04207076947299802,
+      "perdida_val": 0.010163795550664266,
+      "acc_train": 0.9855102040816327,
+      "acc_val": 0.9971428571428571
+    },
+    {
+      "epoca": 6,
+      "perdida_train": 0.03792812206307236,
+      "perdida_val": 0.013040345566613333,
+      "acc_train": 0.9865306122448979,
+      "acc_val": 0.9952380952380953
+    },
+    {
+      "epoca": 7,
+      "perdida_train": 0.037996607337679185,
+      "perdida_val": 0.016129231566474552,
+      "acc_train": 0.9863265306122448,
+      "acc_val": 0.9961904761904762
+    },
+    {
+      "epoca": 8,
+      "perdida_train": 0.02592878674974247,
+      "perdida_val": 0.005756216957455589,
+      "acc_train": 0.9910204081632653,
+      "acc_val": 0.9990476190476191
+    },
+    {
+      "epoca": 9,
+      "perdida_train": 0.021336608869688852,
+      "perdida_val": 0.012403355155672346,
+      "acc_train": 0.9927551020408163,
+      "acc_val": 0.9942857142857143
+    },
+    {
+      "epoca": 10,
+      "perdida_train": 0.023818916131039054,
+      "perdida_val": 0.00884218618983314,
+      "acc_train": 0.9918367346938776,
+      "acc_val": 0.9976190476190476
+    },
+    {
+      "epoca": 11,
+      "perdida_train": 0.019849018004475808,
+      "perdida_val": 0.006229988393329439,
+      "acc_train": 0.9931632653061224,
+      "acc_val": 0.9971428571428571
+    },
+    {
+      "epoca": 12,
+      "perdida_train": 0.019178213769075823,
+      "perdida_val": 0.010194568463734219,
+      "acc_train": 0.9943877551020408,
+      "acc_val": 0.9966666666666667
+    },
+    {
+      "epoca": 13,
+      "perdida_train": 0.01968582071820084,
+      "perdida_val": 0.010863013324283419,
+      "acc_train": 0.9939795918367347,
+      "acc_val": 0.9961904761904762
+    }
+  ],
+  "metricas_test": {
+    "accuracy": 0.9304761904761905,
+    "precision_fake": 0.8804713804713805,
+    "recall_fake": 0.9961904761904762,
+    "f1_fake": 0.934763181411975,
+    "auc": 0.9983632653061225,
+    "matriz_confusion": [
+      [
+        1046,
+        4
+      ],
+      [
+        142,
+        908
+      ]
+    ]
+  },
+  "ruta_modelo": "/content/drive/MyDrive/Tesis/Resultados2/modelos/legacy_xception_StyleGAN2_CelebA_semilla123.pth"
+}

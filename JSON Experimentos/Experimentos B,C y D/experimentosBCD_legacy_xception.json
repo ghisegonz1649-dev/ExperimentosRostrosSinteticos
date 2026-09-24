@@ -1,0 +1,235 @@
+{
+  "experimentos": "B_C_D_cross_generador",
+  "arquitecturas": [
+    "legacy_xception"
+  ],
+  "generador_entrenamiento": "StyleGAN2_CelebA",
+  "fecha": "2026-07-21T21:53:23",
+  "evaluaciones": [
+    {
+      "experimento": "B",
+      "arquitectura": "legacy_xception",
+      "semilla": 42,
+      "generador_evaluacion": "StyleGAN3_CelebA",
+      "metricas": {
+        "accuracy": 0.8371428571428572,
+        "precision_fake": 0.793046357615894,
+        "recall_fake": 0.9123809523809524,
+        "f1_fake": 0.8485385296722764,
+        "auc": 0.9178875283446712,
+        "matriz_confusion": [
+          [
+            958,
+            92
+          ],
+          [
+            250,
+            800
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.88,
+      "degradacion_acc": 0.042857142857142816
+    },
+    {
+      "experimento": "C",
+      "arquitectura": "legacy_xception",
+      "semilla": 42,
+      "generador_evaluacion": "SDXL_CelebA",
+      "metricas": {
+        "accuracy": 0.7738095238095238,
+        "precision_fake": 0.7674418604651163,
+        "recall_fake": 0.7857142857142857,
+        "f1_fake": 0.7764705882352941,
+        "auc": 0.8543160997732426,
+        "matriz_confusion": [
+          [
+            825,
+            225
+          ],
+          [
+            250,
+            800
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.88,
+      "degradacion_acc": 0.10619047619047617
+    },
+    {
+      "experimento": "D",
+      "arquitectura": "legacy_xception",
+      "semilla": 42,
+      "generador_evaluacion": "Flux_CelebA",
+      "metricas": {
+        "accuracy": 0.8380952380952381,
+        "precision_fake": 0.7933884297520661,
+        "recall_fake": 0.9142857142857143,
+        "f1_fake": 0.8495575221238938,
+        "auc": 0.914481179138322,
+        "matriz_confusion": [
+          [
+            960,
+            90
+          ],
+          [
+            250,
+            800
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.88,
+      "degradacion_acc": 0.04190476190476189
+    },
+    {
+      "experimento": "B",
+      "arquitectura": "legacy_xception",
+      "semilla": 123,
+      "generador_evaluacion": "StyleGAN3_CelebA",
+      "metricas": {
+        "accuracy": 0.8857142857142857,
+        "precision_fake": 0.870201096892139,
+        "recall_fake": 0.9066666666666666,
+        "f1_fake": 0.8880597014925373,
+        "auc": 0.9547714285714286,
+        "matriz_confusion": [
+          [
+            952,
+            98
+          ],
+          [
+            142,
+            908
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.9304761904761905,
+      "degradacion_acc": 0.04476190476190478
+    },
+    {
+      "experimento": "C",
+      "arquitectura": "legacy_xception",
+      "semilla": 123,
+      "generador_evaluacion": "SDXL_CelebA",
+      "metricas": {
+        "accuracy": 0.7685714285714286,
+        "precision_fake": 0.8325471698113207,
+        "recall_fake": 0.6723809523809524,
+        "f1_fake": 0.743940990516333,
+        "auc": 0.8765678004535147,
+        "matriz_confusion": [
+          [
+            706,
+            344
+          ],
+          [
+            142,
+            908
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.9304761904761905,
+      "degradacion_acc": 0.16190476190476188
+    },
+    {
+      "experimento": "D",
+      "arquitectura": "legacy_xception",
+      "semilla": 123,
+      "generador_evaluacion": "Flux_CelebA",
+      "metricas": {
+        "accuracy": 0.8080952380952381,
+        "precision_fake": 0.8474758324382384,
+        "recall_fake": 0.7514285714285714,
+        "f1_fake": 0.7965673902069662,
+        "auc": 0.9023360544217688,
+        "matriz_confusion": [
+          [
+            789,
+            261
+          ],
+          [
+            142,
+            908
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.9304761904761905,
+      "degradacion_acc": 0.12238095238095237
+    },
+    {
+      "experimento": "B",
+      "arquitectura": "legacy_xception",
+      "semilla": 2024,
+      "generador_evaluacion": "StyleGAN3_CelebA",
+      "metricas": {
+        "accuracy": 0.8566666666666667,
+        "precision_fake": 0.9339513325608343,
+        "recall_fake": 0.7676190476190476,
+        "f1_fake": 0.8426555148980659,
+        "auc": 0.9482267573696145,
+        "matriz_confusion": [
+          [
+            806,
+            244
+          ],
+          [
+            57,
+            993
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.9695238095238096,
+      "degradacion_acc": 0.11285714285714288
+    },
+    {
+      "experimento": "C",
+      "arquitectura": "legacy_xception",
+      "semilla": 2024,
+      "generador_evaluacion": "SDXL_CelebA",
+      "metricas": {
+        "accuracy": 0.7647619047619048,
+        "precision_fake": 0.9149253731343283,
+        "recall_fake": 0.5838095238095238,
+        "f1_fake": 0.7127906976744186,
+        "auc": 0.8916149659863946,
+        "matriz_confusion": [
+          [
+            613,
+            437
+          ],
+          [
+            57,
+            993
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.9695238095238096,
+      "degradacion_acc": 0.2047619047619048
+    },
+    {
+      "experimento": "D",
+      "arquitectura": "legacy_xception",
+      "semilla": 2024,
+      "generador_evaluacion": "Flux_CelebA",
+      "metricas": {
+        "accuracy": 0.8376190476190476,
+        "precision_fake": 0.9307411907654921,
+        "recall_fake": 0.7295238095238096,
+        "f1_fake": 0.8179391350774159,
+        "auc": 0.9444866213151928,
+        "matriz_confusion": [
+          [
+            766,
+            284
+          ],
+          [
+            57,
+            993
+          ]
+        ]
+      },
+      "acc_experimento_A": 0.9695238095238096,
+      "degradacion_acc": 0.13190476190476197
+    }
+  ]
+}
