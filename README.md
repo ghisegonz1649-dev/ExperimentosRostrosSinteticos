@@ -43,11 +43,6 @@ webapp/                       Backend Flask + frontend Next.js de la página
                               multiclase con Grad-CAM).
 ```
 
-> **Nota:** las carpetas `Datasets/` (imágenes reales y sintéticas) y
-> `Resultados/` (pesos `.pth` de los modelos entrenados) no se incluyen en
-> este repositorio por su tamaño. Ver la sección [Datasets y modelos
-> entrenados](#datasets-y-modelos-entrenados) más abajo.
-
 ## Requerimientos computacionales
 
 ### Entrenamiento y evaluación (`Codigos Experimentos/`)
@@ -103,8 +98,7 @@ que recalculan curvas ROC a partir de un modelo guardado.
 ## Datasets y modelos entrenados
 
 Los datasets de imágenes (reales y generadas por StyleGAN2, StyleGAN3, SDXL y
-Flux) usados en los experimentos, así como los pesos de los modelos ya
-entrenados, están disponibles en kaggle (no se incluyen en el
+Flux) están disponibles en kaggle (no se incluyen en el
 repositorio por su tamaño):
 
 - StyleGAN3: https://www.kaggle.com/datasets/troykueh/real-vs-fake-faces-stylegan3
@@ -113,7 +107,7 @@ repositorio por su tamaño):
 - CelebA-HQ 256x256 (rostros reales): https://www.kaggle.com/datasets/badasstechie/celebahq-resized-256x256
 
 Para reproducir un experimento localmente, descargar las carpetas
-correspondientes desde el Drive y ubicarlas según lo esperado por
+correspondientes y ubicarlas según lo esperado por
 `Codigos Experimentos/config.py` (o apuntar las variables de entorno
 `RUTA_PARTICIONES` / `RUTA_PARTICIONES_MULTICLASE` a donde se hayan
 descargado).
