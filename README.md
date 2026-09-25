@@ -104,10 +104,13 @@ que recalculan curvas ROC a partir de un modelo guardado.
 
 Los datasets de imágenes (reales y generadas por StyleGAN2, StyleGAN3, SDXL y
 Flux) usados en los experimentos, así como los pesos de los modelos ya
-entrenados, están disponibles en este Google Drive (no se incluyen en el
+entrenados, están disponibles en kaggle (no se incluyen en el
 repositorio por su tamaño):
 
-https://drive.google.com/drive/folders/18PWM6zhdK2TMgGY7zT5FZMcrCyUkP6Eq?usp=drive_link
+- StyleGAN3: https://www.kaggle.com/datasets/troykueh/real-vs-fake-faces-stylegan3
+- 130K Real vs Fake Face (SDXL y FLUX.1): https://www.kaggle.com/datasets/shreyanshpatel1/130k-real-vs-fake-face
+- FFHQ (rostros reales): https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq
+- CelebA-HQ 256x256 (rostros reales): https://www.kaggle.com/datasets/badasstechie/celebahq-resized-256x256
 
 Para reproducir un experimento localmente, descargar las carpetas
 correspondientes desde el Drive y ubicarlas según lo esperado por
